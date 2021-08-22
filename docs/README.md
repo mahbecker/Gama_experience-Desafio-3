@@ -1,4 +1,4 @@
-# Gama Academy - Hiring Coders 2021 - Desafio 2
+# Gama Academy - Hiring Coders 2021 - Desafio 3
 22.08.2021 - Mayara Becker
 GitHub: https://github.com/mahbecker
 LinkedIn: https://www.linkedin.com/in/mayara-becker-42a462a3/
