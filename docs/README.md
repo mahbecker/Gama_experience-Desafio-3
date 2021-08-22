@@ -1,4 +1,4 @@
-#Gama Academy - Hiring Coder 2021
+# Gama Academy - Hiring Coders 2021 - Desafio 2
 22.08.2021 - Mayara Becker
 GitHub: https://github.com/mahbecker
 LinkedIn: https://www.linkedin.com/in/mayara-becker-42a462a3/
@@ -10,7 +10,7 @@ https://mahupmedal--hiringcoders2021.myvtex.com/?page=2
 
 ------------------
 
-# Minimum Boilerplate Theme
+#Minimum Boilerplate Theme
 
 The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
 
