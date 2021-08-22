@@ -1,0 +1,20 @@
+/*.flexCol{
+    background-color: #17253f;
+}*/
+
+.listItem{
+    background-color: rgb(57, 56, 77);
+}
+
+.listItemActive{
+    color:rgb(97, 93, 82);
+}
+
+.flexRow{
+    background-color: #06090e;
+}
+
+/*.flexRowContent{
+    background-color:#697bab;
+}
+

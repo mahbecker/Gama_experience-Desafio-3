@@ -1,0 +1,121 @@
+{
+  "store.home": { 
+    "blocks": [
+      "tab-layout#home"] //tab layout, página landing
+  },
+  
+  "tab-layout#home":{
+     "children": [
+       "tab-list#home",
+       "tab-content#home"
+     ],
+     "props": {
+       "blockClass": "home",
+       "defaultActiveTabId": "home1" //page with all itens
+     }
+  },
+
+  "tab-list#home": {
+    "children": [
+        "tab-list.item#home1", //page with all itens
+        "tab-list.item#Corinthias", //page with "Corinthias" products
+        "tab-list.item#Palmeiras"   //page with "Palmeiras" products
+        ]
+  },
+
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "TOdos itens",
+      "defaultActiveTab": true
+      }
+  },
+
+  "tab-list.item#Corinthias": {
+    "props": {
+    "tabId": "Corinthias",
+    "label": "CORINTHIAS"
+    }
+  },
+
+  "tab-list.item#Palmeiras": {
+    "props": {
+    "tabId": "Palmeiras",
+    "label": "PALMEIRAS"
+    }
+  },
+   
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#Corinthias",
+      "tab-content.item#Palmeiras"
+      ]
+    },
+  "tab-content.item#home1": {
+      "children": [
+        "slider-layout#home1",
+        "search-result-layout.customQuery#home"
+      ],
+    "props": {
+      "tabId": "home1"
+      }
+  },
+
+ 
+  "tab-content.item#Corinthias": {
+    "children": [
+    //"rich-text#Corinthias", 
+    "slider-layout#home1",
+    "search-result-layout.customQuery#Corinthias"
+    ],
+    "props": {
+      "tabId": "Corinthias"
+    }
+  },
+
+  "tab-content.item#Palmeiras": {
+    "children": [
+      //"rich-text#Palmeiras", 
+      "slider-layout#home1",
+      "search-result-layout.customQuery#Palmeiras"
+    ],
+      
+    "props": {
+      "tabId": "Palmeiras"
+    }
+  },
+
+  "slider-layout#home1": {
+    "props": {
+      "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+      
+      },
+      "autoplay": {
+      "timeout": 5000,
+      "stopOnHover": false
+      },
+              
+      //"infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#promo1", "image#promo2"]
+  },
+      
+  "image#promo1": {
+    "props": {
+    "src": "assets/promo1_BANNER-WOOD.png",
+    "width":"70%"
+    }
+  },
+    
+  "image#promo2": {
+    "props": {
+    "src": "assets/promo2_ferreiros.png"
+    }
+  }       
+}
